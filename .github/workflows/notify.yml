@@ -1,12 +1,12 @@
 name: Telegram Notify
 
 on:
-  release:
-    types: [published]
-  issues:
-    types: [opened, closed]
-  pull_request:
-    types: [opened, closed]
+#   release:
+#     types: [published]
+#   issues:
+#     types: [opened, closed]
+#   pull_request:
+#     types: [opened, closed]
   workflow_dispatch:
 
 jobs:
