@@ -14,7 +14,6 @@
 		B949716B2F62525800F59BC9 /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = B949716A2F62525800F59BC9 /* SwiftProtobufPluginLibrary */; };
 		B98CBE7B2FE6935F00C950DA /* Installations in Frameworks */ = {isa = PBXBuildFile; productRef = B98CBE7A2FE6935F00C950DA /* Installations */; };
 		B98CBE802FE69D9000C950DA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = B98CBE7F2FE69D9000C950DA /* Sparkle */; };
-		B99B04C62F641E1400FF3E2D /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = B99B04C52F641E1400FF3E2D /* AppIcon.icon */; };
 		B9B1C00D2E94E15D0005F6CB /* LottieUI in Frameworks */ = {isa = PBXBuildFile; productRef = B9B1C00C2E94E15D0005F6CB /* LottieUI */; };
 		B9C3181E2E37AA1D00367F16 /* QRCode in Frameworks */ = {isa = PBXBuildFile; productRef = B9C3181D2E37AA1D00367F16 /* QRCode */; };
 		B9D742FC2E39CF850053128A /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = B9D742FB2E39CF850053128A /* Swifter */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		B9673B572E35A2A1006D284A /* AirSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B99B04C52F641E1400FF3E2D /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		B9E423822FBD914900526D40 /* scrcpy-server */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scrcpy-server"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +77,6 @@
 				B9673B592E35A2A1006D284A /* airsync-mac */,
 				B9D263192F60D97900628704 /* Frameworks */,
 				B9673B582E35A2A1006D284A /* Products */,
-				B99B04C52F641E1400FF3E2D /* AppIcon.icon */,
 				B9E423822FBD914900526D40 /* scrcpy-server */,
 			);
 			sourceTree = "<group>";
@@ -185,7 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9E423832FBD914900526D40 /* scrcpy-server in Resources */,
-				B99B04C62F641E1400FF3E2D /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +270,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 31;
@@ -455,6 +452,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 31;
@@ -508,6 +506,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 31;
